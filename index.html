@@ -33,8 +33,8 @@
             <!-- Style CSS -->
             <link rel="stylesheet" href="css/style.css">
 
-             <!--JS-->
-            <script src="js/custom.js"></script>
+             <!--JS
+            <script src="js/custom.js"></script>-->
             
         </head>
         
@@ -533,9 +533,9 @@
 
                                     <div id="error_msg"></div>
 
-                                    <form action="" id="myForm" onsubmit="return validation();">     
-                                        <input type="text" id="first-name" placeholder="First-Name" class="form-control" >
-                                        <input type="text" id="last-name" placeholder="Last-Name" class="form-control">
+                                    <div  id="myForm" >     
+                                        <input type="text" id="first-name" placeholder="Name" class="form-control" >
+                                        <!--<input type="text" id="last-name" placeholder="Last-Name" class="form-control">-->
                                         <input type="text" id="email" placeholder="Email-Address" class="form-control" >
                                         <input type="tel" id="phone" placeholder="Phone Number" class="form-control" >
                                         <textarea rows="5" id="message" placeholder="Message..." class="form-control"></textarea>
@@ -543,10 +543,10 @@
                                         <div id="send-btn">
                                             <!-- <a href="#" class="btn btn-lg btn-general btn-white" role="button">SEND</a> -->
                                             <!-- <button type="submit" class="btn btn-lg btn-general btn-white">SEND</button> -->
-                                            <input type="submit"  class="btn btn-lg btn-general btn-white">
+                                            <input type="submit"  class="btn btn-lg btn-general btn-white" onclick="validation()">
                                         </div>
 
-                                    </form>
+                                    </div>
                                 </div>
                             </div>
 

@@ -351,10 +351,10 @@ footer{
 	font-weight: 700;
 	letter-spacing: 1px;
 }
-form textarea{
+#myForm textarea{
 	resize: none;
 }
-form .form-control{
+#myForm .form-control{
 	background: transparent;
 	border-radius: 0;
 	border-color: #fff;
